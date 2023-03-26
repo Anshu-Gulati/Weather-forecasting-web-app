@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/home.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />
+</head>
+<body>
+<section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    What's the weather like?
+                </h1>
+            </div>
+        </div>
+    </section><center>
+<h2 class="weatherText">Weather Dashboard in Flask</h2>
+<form class="weatherText" id="weatherForm" action="{{ url_for('render_results') }}" method="post">
+    Enter city name: <input class="weatherText" id="weatherInput" type="text" name="cityname"><br>
+    <input class="weatherText" id="weatherSubmit" type="submit" value="Submit"></form></center>
+</body>
+</html>

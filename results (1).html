@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results Page</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/results1.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />
+</head>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    What's the weather like?
+                </h1>
+            </div>
+        </div>
+    </section><center>
+    <div id="weatherResults">
+    <h1>{{ date_time }}</h1>
+    <h3>Weather in {{ location }}</h3>
+    <h2>{{ temp }}° C</h2>
+    <h3>{{ weather }}<img src="http://openweathermap.org/img/w/{{ icon }}.png" alt="icon"></h3>
+    <h4>Feels like: {{ feels_like }}° C</h4>
+    <h4>Description: {{description}}</h4>
+    <h4>Humidity: {{hdmt}}</h4>
+    <h4>Wind speed: {{wind_speed}}</h4>
+    <h4>Min. Tmp.: {{ min_temp }}° C</h4>
+    <h4>Max Temp: {{  max_temp  }}° C</h4>
+    <h4>sunrise: {{  sunrise }}</h4>
+    <h4>Sunset: {{ sunset  }}</h4>
+    <h4>clouds: {{  clouds }}</h4>
+    <h4>pressure: {{ pressure }}</h4>
+    <h4>visibility:{{visibility  }}</h4>
+    <h4>country:{{ country }}</h4>
+    <h4>Name:{{ name }}</h4>
+    <h4></h4>
+    </div></center>
+</body>
+</html>
