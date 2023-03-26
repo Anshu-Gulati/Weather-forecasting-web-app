@@ -36,3 +36,20 @@ This application provides detailed information with iteractive images.
 - [@anshu_gulati](https://github.com/Anshu-Gulati)
 - [@manoj_kumar](maansingh6660@gmail.com)
 
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://gentle-salsa-4b2.notion.site/My-Resume-535e8796b1ce42a1af20c95f6957b2b4)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anshu-gulati-6a605b20b/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/n)
+
+
+## Related
+
+Here are some related projects
+
+[Awesome README](https://github.com/Anshu-Gulati)
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at anshugulati6@gmail.com
+
